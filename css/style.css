@@ -1,0 +1,256 @@
+/*@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  src: url(../fonts/'MuseoSansCyrl-100.eot');
+  src: local('MuseoSansCyrl-100'),
+    url(../fonts/'MuseoSansCyrl-100.eot?#iefix') format('embedded-opentype'),
+    url(../fonts/'MuseoSansCyrl-100.woff') format('woff'),
+    url(../fonts/'MuseoSansCyrl-100.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url(../fonts/'MuseoSansCyrl-300.eot');
+  src: local('MuseoSansCyrl-300'),
+    url(../fonts/'MuseoSansCyrl-300.eot?#iefix') format('embedded-opentype'),
+    url(../fonts/'MuseoSansCyrl-300.woff') format('woff'),
+    url(../fonts/'MuseoSansCyrl-300.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url(../fonts/'MuseoSansCyrl-700.eot');
+  src: local('MuseoSansCyrl-700'),
+    url(../fonts/'MuseoSansCyrl-700.eot?#iefix') format('embedded-opentype'),
+    url(../fonts/'MuseoSansCyrl-700.woff') format('woff'),
+    url(../fonts/'MuseoSansCyrl-700.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}*/
+@font-face {
+  font-family: 'Museo Sans Cyrl 100';
+  src: url(../fonts/MuseoSansCyrl-100.eot);
+  src: local(MuseoSansCyrl-100),
+    url(../fonts/MuseoSansCyrl-100.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/MuseoSansCyrl-100.woff) format('woff'),
+    url(../fonts/MuseoSansCyrl-100.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 300';
+  src: url(../fonts/MuseoSansCyrl-300.eot);
+  src: local(MuseoSansCyrl-300),
+    url(../fonts/MuseoSansCyrl-300.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/MuseoSansCyrl-300.woff) format('woff'),
+    url(../fonts/MuseoSansCyrl-300.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans Cyrl 700';
+  src: url(../fonts/MuseoSansCyrl-700.eot);
+  src: local(MuseoSansCyrl-700),
+    url(../fonts/MuseoSansCyrl-700.eot?#iefix) format('embedded-opentype'),
+    url(../fonts/MuseoSansCyrl-700.woff) format('woff'),
+    url(../fonts/MuseoSansCyrl-700.ttf) format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    background: url(../images/fon1.png) no-repeat;
+    background-size: cover;
+    color:  #ffffff;
+}
+a, button, input, textarea {
+outline: none;
+}
+a{
+  color:  #ffffff;
+}
+a:hover{
+  text-decoration: none;
+  cursor: pointer;
+  color:  #ffffff;
+}
+p {
+    margin: 0px 0px 0px 0px;
+}
+#header {
+    font-family: 'ProximaNova-Regular_1';
+    font-weight: 600;
+}
+.navbar-collapse{
+  font-family: 'Museo Sans Cyrl 300';
+}
+.nav a{
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 17px;
+}
+.nav>li>a {
+    display: inline-block;
+}
+.navbar-nav>li>a {
+    padding-top: 20px;
+}
+/*.pad{
+    padding-left: 170px;
+}*/
+.hvr-underline-from-left {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-left:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
+  /*background: #ffffff;*/
+  background: #b1b1b1;
+  height: 1px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left:hover:before, 
+.hvr-underline-from-left:focus:before, 
+.hvr-underline-from-left:active:before {
+  right: 0;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 0px;
+    line-height: 20px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 9px;
+    padding: 22px 0px 0px 0px;
+}
+.nav>li {
+    padding: 0px 20px 0px 0px;
+}
+.nav>li>a:hover{
+    color: #b1b1b1;
+}
+button {
+    outline: none;
+    text-align: center;
+}
+button.mybtn {
+    font-family: 'Museo Sans Cyrl 100';
+    background: url(../images/but.png) no-repeat;
+    font-size: 14px;
+    padding: 7px 28px 17px 21px;
+    border: none;
+}
+.clr {
+    clear: both;
+    font-size: 0px;
+    line-height: 0px;
+}
+.grad{
+    padding-top: 42px;
+    padding-left: 41px;
+}
+.but{
+    padding-top: 40px;
+    padding-left: 135px;
+}
+/* Float Shadow */
+.hvr-float-shadow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-float-shadow:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  background: -webkit-radial-gradient(center, ellipse, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.35) 0%, transparent 80%);
+  /* W3C */
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.hvr-float-shadow:hover, .hvr-float-shadow:focus, .hvr-float-shadow:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+  /* move the element up by 5px */
+}
+.hvr-float-shadow:hover:before, .hvr-float-shadow:focus:before, .hvr-float-shadow:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+  /* move the element down by 5px (it will stay in place because it's attached to the element that also moves up 5px) */
+}
+.one{
+  
+}
+
+.big-text{
+  font-family: 'Museo Sans Cyrl 700';
+  font-size: 60px;
+}
+.small-text{
+  font-family: 'Museo Sans Cyrl 100';
+  font-size: 18px;
+}
+.text-center{
+  text-align: center;
+}
+.one {
+-moz-transition: all 0.4s; 
+-webkit-transition: all 0.4s;  
+-ms-transition: all 0.4s;  
+-o-transition: all 0.4s;  
+transition: all 0.4s; 
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.one:hover {
+opacity:0.5;
+filter:alpha(opacity=50);
+}
+/*.one>a {
+  border: 1px solid transparent; 
+.one>a:hover {
+  border: 1px solid red; 
+}*/
+/*@media (min-width: 768px){
+    .navbar-nav>li>a {
+        padding-top: 22px;
+        padding-bottom: 5px;
+        }
+}*/
